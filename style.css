@@ -3,7 +3,7 @@
 body {
     max-width: 90%;
     margin: auto;
-    background-image: url(bg.jpg);
+    background-image: url(img/bg.jpg);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: cover;
@@ -78,19 +78,19 @@ tr:nth-child(odd) {
 }
 
 ul .bien {
-    background-image: url(bien.png);
+    background-image: url(img/bien.png);
     background-size: contain;
     padding-right: 50px;
 }
 
 ul .mal {
-    background-image: url(mal.png);
+    background-image: url(img/mal.png);
     background-size: contain;
     padding-right: 50px;
 }
 
 ul .chat {
-    background-image: url(chat.png);
+    background-image: url(img/chat.png);
     background-size: contain;
     padding-right: 50px;
 }

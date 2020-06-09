@@ -3,7 +3,7 @@
 body {
     max-width: 90%;
     margin: auto;
-    background-image: url(canvas.jpg);
+    background-image: url(bg.jpg);
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: cover;
@@ -15,9 +15,14 @@ blockquote {
     margin: 80px auto;
     font-size: 160%;
     background-color: lightgrey;
-    border-left: 3px solid brown;
     border-radius: 5px;
     padding: 10px 10px 10px 50px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+p:first-of-type {
+    font-weight: bold;
 }
 
 p {
@@ -26,3 +31,67 @@ p {
     font-size: 20px;
     color: #0E334B;
 }
+
+header p {
+    background-color: yellow;
+}
+
+.villageois {
+    border-left: 3px solid brown;
+}
+
+.fermier {
+    border-left: 3px solid green;
+}
+
+.bien {
+    color: green;
+}
+
+.mal {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: silver;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+ul .bien {
+    background-image: url(bien.png);
+    background-size: contain;
+    padding-right: 50px;
+}
+
+ul .mal {
+    background-image: url(mal.png);
+    background-size: contain;
+    padding-right: 50px;
+}
+
+ul .chat {
+    background-image: url(chat.png);
+    background-size: contain;
+    padding-right: 50px;
+}
+

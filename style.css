@@ -1,13 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 body {
+    font-family: 'Open Sans', sans-serif;
     max-width: 90%;
     margin: auto;
-    background-image: url(img/bg.jpg);
+    /* background-image: url(img/bg.jpg); */
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: cover;
-    /* background: linear-gradient(115deg, rgb(155, 252, 255), rgb(64, 102, 139)); */
+    background: linear-gradient(115deg, rgb(155, 252, 255), rgb(64, 102, 139));
+}
+
+h1, h2, h3 {
+    font-family: 'Fredericka the Great', cursive;
 }
 
 blockquote {
@@ -21,14 +27,13 @@ blockquote {
     text-transform: uppercase;
 }
 
-p:first-of-type {
+main p:first-child {
     font-weight: bold;
 }
 
 p {
-    font-family: 'Josefin Slab', serif;
-    line-height: 24px;
-    font-size: 20px;
+    line-height: 22px;
+    font-size: 18px;
     color: #0E334B;
 }
 
@@ -80,18 +85,23 @@ tr:nth-child(odd) {
 ul .bien {
     background-image: url(img/bien.png);
     background-size: contain;
-    padding-right: 50px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 22px;
 }
 
 ul .mal {
     background-image: url(img/mal.png);
     background-size: contain;
-    padding-right: 50px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 22px;
 }
 
 ul .chat {
     background-image: url(img/chat.png);
     background-size: contain;
-    padding-right: 50px;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 22px;
 }
-
